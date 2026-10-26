@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T19:26:06Z",
+  "generatedAt": "2026-10-26T19:32:12Z",
   "donationUrl": "",
   "apps": [
     {
@@ -40,14 +40,14 @@
         "exe": "VectorsEuroScopeSectorFileManager.exe"
       },
       "release": {
-        "version": "1.1.1",
-        "tag": "sfm-v1.1.1",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.1.1/VectorsEuroScopeSectorFileManager-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.1.1",
-        "sha256": "753504b0bbdc942594846c370fa9c44d94d543f0c439341d519e1518515a10d7",
-        "size": 52805714,
-        "publishedAt": "2026-10-26T19:26:06Z",
-        "notes": "Republished build of sfm-v1.1.1."
+        "version": "1.2.0",
+        "tag": "sfm-v1.2.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.2.0/VectorsEuroScopeSectorFileManager-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.2.0",
+        "sha256": "6d24ac854a84b3c0f536c1563ca238dee7239542eb79d59909b073b177e2781c",
+        "size": 52813084,
+        "publishedAt": "2026-10-26T19:32:12Z",
+        "notes": "### Features\n\n* **sfm:** check for updates in the Vectors ATC catalog (#7) (2e56d24)"
       }
     },
     {
