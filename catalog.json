@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T20:43:30Z",
+  "generatedAt": "2026-10-26T20:48:48Z",
   "donationUrl": "",
   "apps": [
     {
@@ -21,14 +21,14 @@
         "exe": "VectorsATCHub.exe"
       },
       "release": {
-        "version": "0.1.0",
-        "tag": "hub-v0.1.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.1.0/VectorsATCHub-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.1.0",
-        "sha256": "9b8454a8112f936b65f4da930d634c481062e0c3ad8ed036d1536e167c7ae270",
-        "size": 49863543,
-        "publishedAt": "2026-10-26T20:04:03Z",
-        "notes": "### Features\n\n* **hub:** the Vectors ATC Hub, to install, update, repair and remove the Vectors apps (#8) (4080ab2)\n* **sfm:** check for updates in the Vectors ATC catalog (#7) (2e56d24)"
+        "version": "0.2.0",
+        "tag": "hub-v0.2.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.2.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.2.0",
+        "sha256": "b1480094c0ae28e037106b28642b8b188b2dd3412db3a8b941b536bcda58c2a1",
+        "size": 49883140,
+        "publishedAt": "2026-10-26T20:48:48Z",
+        "notes": "### Features\n\n* set up the EuroScope profiles for the VectorsATC Suíte (#12) (c57e6f0)"
       }
     },
     {
@@ -49,14 +49,14 @@
         "exe": "VectorsEuroScopeSectorFileManager.exe"
       },
       "release": {
-        "version": "1.2.0",
-        "tag": "sfm-v1.2.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.2.0/VectorsEuroScopeSectorFileManager-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.2.0",
-        "sha256": "6d24ac854a84b3c0f536c1563ca238dee7239542eb79d59909b073b177e2781c",
-        "size": 52813084,
-        "publishedAt": "2026-10-26T19:32:12Z",
-        "notes": "### Features\n\n* **sfm:** check for updates in the Vectors ATC catalog (#7) (2e56d24)"
+        "version": "1.3.0",
+        "tag": "sfm-v1.3.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.3.0/VectorsEuroScopeSectorFileManager-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.3.0",
+        "sha256": "a926134efec12884890ab58c00e788c72b70d3271516c0f354af5812d4a43580",
+        "size": 52826837,
+        "publishedAt": "2026-10-26T20:48:48Z",
+        "notes": "### Features\n\n* set up the EuroScope profiles for the VectorsATC Suíte (#12) (c57e6f0)"
       }
     },
     {
@@ -76,6 +76,16 @@
         "target": "%APPDATA%\\EuroScope\\PlugIn\\VectorsATC",
         "dll": "VectorsATC.dll",
         "lockedBy": "EuroScope.exe",
+        "profiles": {
+          "displays": [
+            "Standard ES radar screen",
+            "Vectors Ground Radar"
+          ],
+          "replaces": [
+            "VectorsProcsMap.dll",
+            "VectorsOperationsPanel.dll"
+          ]
+        },
         "preserve": [
           "VPMConfig.txt",
           "VPMStyles.txt"
