@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-26T19:26:06Z",
+  "donationUrl": "",
+  "apps": [
+    {
+      "id": "hub",
+      "listed": false,
+      "name": {
+        "pt": "Vectors ATC Hub",
+        "en": "Vectors ATC Hub"
+      },
+      "summary": {
+        "pt": "Instala, atualiza, repara e remove os apps do Vectors ATC Group.",
+        "en": "Installs, updates, repairs and removes the Vectors ATC Group apps."
+      },
+      "kind": "inno-installer",
+      "asset": "VectorsATCHub-Setup.exe",
+      "install": {
+        "appId": "{6C2E9B41-7D3A-4F58-A1E6-3B9D0C7F2A15}",
+        "exe": "VectorsATCHub.exe"
+      },
+      "release": null
+    },
+    {
+      "id": "sfm",
+      "listed": true,
+      "name": {
+        "pt": "EuroScope Sector File Manager",
+        "en": "EuroScope Sector File Manager"
+      },
+      "summary": {
+        "pt": "Instala e atualiza os Sector Files do EuroScope a partir do AeroNav.",
+        "en": "Installs and updates EuroScope Sector Files from AeroNav."
+      },
+      "kind": "inno-installer",
+      "asset": "VectorsEuroScopeSectorFileManager-Setup.exe",
+      "install": {
+        "appId": "{A1F5C7D3-2E48-4B6A-9C1D-7F3E5A2B8C40}",
+        "exe": "VectorsEuroScopeSectorFileManager.exe"
+      },
+      "release": {
+        "version": "1.1.1",
+        "tag": "sfm-v1.1.1",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.1.1/VectorsEuroScopeSectorFileManager-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.1.1",
+        "sha256": "753504b0bbdc942594846c370fa9c44d94d543f0c439341d519e1518515a10d7",
+        "size": 52805714,
+        "publishedAt": "2026-10-26T19:26:06Z",
+        "notes": "Republished build of sfm-v1.1.1."
+      }
+    },
+    {
+      "id": "plugin",
+      "listed": true,
+      "name": {
+        "pt": "Plugin VectorsATC para EuroScope",
+        "en": "VectorsATC plugin for EuroScope"
+      },
+      "summary": {
+        "pt": "Painel operacional e mapa de procedimentos (SID, STAR, IAP) numa só DLL.",
+        "en": "Operations panel and procedure map (SID, STAR, IAP) in one DLL."
+      },
+      "kind": "zip-plugin",
+      "asset": "VectorsATC-plugin-v{version}.zip",
+      "install": {
+        "target": "%APPDATA%\\EuroScope\\PlugIn\\VectorsATC",
+        "dll": "VectorsATC.dll",
+        "lockedBy": "EuroScope.exe",
+        "preserve": [
+          "VPMConfig.txt",
+          "VPMStyles.txt"
+        ]
+      },
+      "release": {
+        "version": "1.1.0",
+        "tag": "plugin-v1.1.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/plugin-v1.1.0/VectorsATC-plugin-v1.1.0.zip",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/plugin-v1.1.0",
+        "sha256": "21a935bf18406d07194e85d6b084dd3d807db1417dd591408d38e14ea181fb6c",
+        "size": 2051055,
+        "publishedAt": "2026-10-26T19:26:06Z",
+        "notes": "Republished build of plugin-v1.1.0."
+      }
+    }
+  ]
+}
