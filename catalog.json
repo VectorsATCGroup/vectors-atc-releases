@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T19:32:12Z",
+  "generatedAt": "2026-10-26T20:04:03Z",
   "donationUrl": "",
   "apps": [
     {
@@ -20,7 +20,16 @@
         "appId": "{6C2E9B41-7D3A-4F58-A1E6-3B9D0C7F2A15}",
         "exe": "VectorsATCHub.exe"
       },
-      "release": null
+      "release": {
+        "version": "0.1.0",
+        "tag": "hub-v0.1.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.1.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.1.0",
+        "sha256": "9b8454a8112f936b65f4da930d634c481062e0c3ad8ed036d1536e167c7ae270",
+        "size": 49863543,
+        "publishedAt": "2026-10-26T20:04:03Z",
+        "notes": "### Features\n\n* **hub:** the Vectors ATC Hub, to install, update, repair and remove the Vectors apps (#8) (4080ab2)\n* **sfm:** check for updates in the Vectors ATC catalog (#7) (2e56d24)"
+      }
     },
     {
       "id": "sfm",
