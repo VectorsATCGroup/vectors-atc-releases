@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T20:48:48Z",
-  "donationUrl": "",
+  "generatedAt": "2026-10-26T21:13:50Z",
+  "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
       "id": "hub",
@@ -25,10 +25,10 @@
         "tag": "hub-v0.2.0",
         "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.2.0/VectorsATCHub-Setup.exe",
         "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.2.0",
-        "sha256": "b1480094c0ae28e037106b28642b8b188b2dd3412db3a8b941b536bcda58c2a1",
-        "size": 49883140,
-        "publishedAt": "2026-10-26T20:48:48Z",
-        "notes": "### Features\n\n* set up the EuroScope profiles for the VectorsATC Suíte (#12) (c57e6f0)"
+        "sha256": "d226461ad90ad7eb711ce212310c779c7e95ac35e3a94d812e42b01528f2e822",
+        "size": 49882564,
+        "publishedAt": "2026-10-26T21:13:50Z",
+        "notes": "Republished build of hub-v0.2.0."
       }
     },
     {
@@ -51,12 +51,12 @@
       "release": {
         "version": "1.3.0",
         "tag": "sfm-v1.3.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/sfm-v1.3.0/VectorsEuroScopeSectorFileManager-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/sfm-v1.3.0",
-        "sha256": "a926134efec12884890ab58c00e788c72b70d3271516c0f354af5812d4a43580",
-        "size": 52826837,
-        "publishedAt": "2026-10-26T20:48:48Z",
-        "notes": "### Features\n\n* set up the EuroScope profiles for the VectorsATC Suíte (#12) (c57e6f0)"
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsEuroScopeSectorFileManager-Setup-1.3.0.exe",
+        "notesUrl": null,
+        "sha256": "d664d9930efc0be18ce085a2c9df9b0804bd9c7ea2cc7c77cc85154a17763936",
+        "size": 52827014,
+        "publishedAt": "2026-10-26T21:13:50Z",
+        "notes": "Republished build of sfm-v1.3.0."
       }
     },
     {
@@ -94,12 +94,12 @@
       "release": {
         "version": "1.2.0",
         "tag": "plugin-v1.2.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/plugin-v1.2.0/VectorsATC-plugin-v1.2.0.zip",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/plugin-v1.2.0",
-        "sha256": "95b59f2dfeb8199a3205c6d262967356fb2b2dbbc8fac43bca47cc148dcf04ad",
-        "size": 2051080,
-        "publishedAt": "2026-10-26T20:43:30Z",
-        "notes": "### Features\n\n* **plugin:** rename the plugin to VectorsATC Suíte (#11) (475f642)"
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.2.0.zip",
+        "notesUrl": null,
+        "sha256": "246a3f208777acbc2eb0c221e306e9de400a55946d874da86b5552c3a2a173c3",
+        "size": 2051079,
+        "publishedAt": "2026-10-26T21:13:50Z",
+        "notes": "Republished build of plugin-v1.2.0."
       }
     }
   ]
