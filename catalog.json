@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T16:14:58Z",
+  "generatedAt": "2026-10-30T16:23:02Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -120,7 +120,16 @@
         "lockedBy": "EuroScope.exe",
         "companionOf": "plugin"
       },
-      "release": null
+      "release": {
+        "version": "2611.1.0",
+        "tag": "navdata-v2611.1.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-navdata-2611.1.0.zip",
+        "notesUrl": null,
+        "sha256": "7bf22dd93b3948f201259af11bbefc4c0040907d506d3a66b9cdcfefdf144616",
+        "size": 148562,
+        "publishedAt": "2026-10-30T16:23:02Z",
+        "notes": "AIRAC 2611: 178 aeródromos, 1934 procedimentos."
+      }
     }
   ]
 }
