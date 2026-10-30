@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-30T16:23:02Z",
+  "generatedAt": "2026-10-30T16:55:38Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -21,14 +21,15 @@
         "exe": "VectorsATCHub.exe"
       },
       "release": {
-        "version": "0.3.0",
-        "tag": "hub-v0.3.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.3.0/VectorsATCHub-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.3.0",
-        "sha256": "b9dfbe89a34dfa53be35213c9798a71f1e67241bd5c68213fdbddbe1b5ba2ff8",
-        "size": 49886101,
-        "publishedAt": "2026-10-30T16:14:58Z",
-        "notes": "### Features\n\n* **hub:** install each AIRAC's procedures with the plugin, by itself (#14) (2c41440)"
+        "version": "0.4.0",
+        "tag": "hub-v0.4.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.4.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.4.0",
+        "sha256": "9b42e2decbe4c1e7a43609ad2a2cf3127c10a392a51c9a2f42a395304864ea49",
+        "size": 49890442,
+        "publishedAt": "2026-10-30T16:55:38Z",
+        "notes": "### Features\n\n* **hub:** show the release notes in the app's language (#17) (bd2a1fc)",
+        "notesPt": "### Novidades\n\n* **hub:** as notas de atualização agora aparecem em português quando o app está em português (bd2a1fc)"
       }
     },
     {
@@ -49,14 +50,15 @@
         "exe": "VectorsEuroScopeSectorFileManager.exe"
       },
       "release": {
-        "version": "1.4.0",
-        "tag": "sfm-v1.4.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsEuroScopeSectorFileManager-Setup-1.4.0.exe",
+        "version": "1.5.0",
+        "tag": "sfm-v1.5.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsEuroScopeSectorFileManager-Setup-1.5.0.exe",
         "notesUrl": null,
-        "sha256": "f458dc64eaf07cc0ca40ab8eb7f0b34d024768ad0d7bf6505fdde6e6634e49c8",
-        "size": 52827405,
-        "publishedAt": "2026-10-30T16:14:58Z",
-        "notes": "### Features\n\n* **hub:** install each AIRAC's procedures with the plugin, by itself (#14) (2c41440)"
+        "sha256": "456cf0c28948ad45878637d5c9dddd725e8670b091d38730e8daa102523b4554",
+        "size": 52901775,
+        "publishedAt": "2026-10-30T16:55:38Z",
+        "notes": "### Features\n\n* **hub:** show the release notes in the app's language (#17) (bd2a1fc)",
+        "notesPt": "### Novidades\n\n* **hub:** as notas de atualização agora aparecem em português quando o app está em português (bd2a1fc)"
       }
     },
     {
