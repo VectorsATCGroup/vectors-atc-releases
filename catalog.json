@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-26T21:13:50Z",
+  "generatedAt": "2026-10-30T16:14:58Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -21,14 +21,14 @@
         "exe": "VectorsATCHub.exe"
       },
       "release": {
-        "version": "0.2.0",
-        "tag": "hub-v0.2.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.2.0/VectorsATCHub-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.2.0",
-        "sha256": "d226461ad90ad7eb711ce212310c779c7e95ac35e3a94d812e42b01528f2e822",
-        "size": 49882564,
-        "publishedAt": "2026-10-26T21:13:50Z",
-        "notes": "Republished build of hub-v0.2.0."
+        "version": "0.3.0",
+        "tag": "hub-v0.3.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.3.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.3.0",
+        "sha256": "b9dfbe89a34dfa53be35213c9798a71f1e67241bd5c68213fdbddbe1b5ba2ff8",
+        "size": 49886101,
+        "publishedAt": "2026-10-30T16:14:58Z",
+        "notes": "### Features\n\n* **hub:** install each AIRAC's procedures with the plugin, by itself (#14) (2c41440)"
       }
     },
     {
@@ -49,14 +49,14 @@
         "exe": "VectorsEuroScopeSectorFileManager.exe"
       },
       "release": {
-        "version": "1.3.0",
-        "tag": "sfm-v1.3.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsEuroScopeSectorFileManager-Setup-1.3.0.exe",
+        "version": "1.4.0",
+        "tag": "sfm-v1.4.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsEuroScopeSectorFileManager-Setup-1.4.0.exe",
         "notesUrl": null,
-        "sha256": "d664d9930efc0be18ce085a2c9df9b0804bd9c7ea2cc7c77cc85154a17763936",
-        "size": 52827014,
-        "publishedAt": "2026-10-26T21:13:50Z",
-        "notes": "Republished build of sfm-v1.3.0."
+        "sha256": "f458dc64eaf07cc0ca40ab8eb7f0b34d024768ad0d7bf6505fdde6e6634e49c8",
+        "size": 52827405,
+        "publishedAt": "2026-10-30T16:14:58Z",
+        "notes": "### Features\n\n* **hub:** install each AIRAC's procedures with the plugin, by itself (#14) (2c41440)"
       }
     },
     {
@@ -101,6 +101,26 @@
         "publishedAt": "2026-10-26T21:13:50Z",
         "notes": "Republished build of plugin-v1.2.0."
       }
+    },
+    {
+      "id": "navdata",
+      "listed": false,
+      "name": {
+        "pt": "procedimentos do AIRAC",
+        "en": "AIRAC procedures"
+      },
+      "summary": {
+        "pt": "O VPMProcs.txt com os procedimentos de todas as FIRs, instalado junto com o plugin.",
+        "en": "The VPMProcs.txt with the procedures of every FIR, installed along with the plugin."
+      },
+      "kind": "zip-plugin",
+      "asset": "VectorsATC-navdata-{version}.zip",
+      "install": {
+        "target": "%APPDATA%\\EuroScope\\PlugIn\\VectorsATC",
+        "lockedBy": "EuroScope.exe",
+        "companionOf": "plugin"
+      },
+      "release": null
     }
   ]
 }
