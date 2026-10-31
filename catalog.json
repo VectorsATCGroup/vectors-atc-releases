@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T15:52:25Z",
+  "generatedAt": "2026-10-31T16:10:12Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -94,15 +94,15 @@
         ]
       },
       "release": {
-        "version": "1.3.0",
-        "tag": "plugin-v1.3.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.3.0.zip",
+        "version": "1.4.0",
+        "tag": "plugin-v1.4.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.4.0.zip",
         "notesUrl": null,
-        "sha256": "32e3c54b12d32f1a4be7b6191057dc366614101252603735973162494482a4e6",
-        "size": 2102201,
-        "publishedAt": "2026-10-31T15:52:25Z",
-        "notes": "### Features\n\n* switch the plugin's modules from a menu and choose the procedures to install (#21) (0c5a926)",
-        "notesPt": "### Novidades\n\n* o plugin agora começa desligado e o menu VECTORS liga o mapa de procedimentos, o painel operacional e a barra de menus; o Hub deixa escolher os procedimentos por FIR ou terminal; as janelas do painel fecham ao tirar o mouse ou clicar fora; aeroportos sem pista em uso só aparecem em APP e CTR se houver tráfego chegando; o voo selecionado fica em azul; QNH em destaque só em hPa; janela do aeródromo mais completa; cores da janela GND iguais às do sector; várias correções no radar de solo (0c5a926)"
+        "sha256": "8a2724603cbe30ef990d0daa9be443568022fc2e7c56d439f668d8562f72b15d",
+        "size": 2104659,
+        "publishedAt": "2026-10-31T16:10:12Z",
+        "notes": "### Features\n\n* **plugin:** add EuroScope tag items for stands and ground states (#22) (1941886)",
+        "notesPt": "### Novidades\n\n* **plugin:** novos itens e funções de TAG para o EuroScope (posição de chegada e de saída e estado de solo), e os campos REG, SI e STS no rótulo do radar de solo (1941886)"
       }
     },
     {
