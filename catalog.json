@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-10-31T16:10:12Z",
+  "generatedAt": "2026-11-17T18:18:25Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -94,15 +94,15 @@
         ]
       },
       "release": {
-        "version": "1.4.0",
-        "tag": "plugin-v1.4.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.4.0.zip",
+        "version": "1.5.0",
+        "tag": "plugin-v1.5.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.5.0.zip",
         "notesUrl": null,
-        "sha256": "8a2724603cbe30ef990d0daa9be443568022fc2e7c56d439f668d8562f72b15d",
-        "size": 2104659,
-        "publishedAt": "2026-10-31T16:10:12Z",
-        "notes": "### Features\n\n* **plugin:** add EuroScope tag items for stands and ground states (#22) (1941886)",
-        "notesPt": "### Novidades\n\n* **plugin:** novos itens e funções de TAG para o EuroScope (posição de chegada e de saída e estado de solo), e os campos REG, SI e STS no rótulo do radar de solo (1941886)"
+        "sha256": "57e6f69ceb4351b181e56739d7b360feb793750c7cb1d1979e1ade66f3b4a117",
+        "size": 2108910,
+        "publishedAt": "2026-11-17T18:18:25Z",
+        "notes": "### Features\n\n* **plugin:** detached transitions and the vac_route style for visual approach charts (#30) (1dd9ce2)",
+        "notesPt": "### Novidades\n\n* **plugin:** As cartas de aproximação visual (VAC) passam a ser desenhadas como circuito de tráfego, com as rotas de entrada e saída pontilhadas e sem linha de ligação ao início do procedimento. (1dd9ce2)"
       }
     },
     {
