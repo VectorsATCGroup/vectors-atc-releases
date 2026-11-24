@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-17T18:18:25Z",
+  "generatedAt": "2026-11-24T05:07:15Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -94,15 +94,15 @@
         ]
       },
       "release": {
-        "version": "1.5.0",
-        "tag": "plugin-v1.5.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.5.0.zip",
+        "version": "1.6.0",
+        "tag": "plugin-v1.6.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.6.0.zip",
         "notesUrl": null,
-        "sha256": "57e6f69ceb4351b181e56739d7b360feb793750c7cb1d1979e1ade66f3b4a117",
-        "size": 2108910,
-        "publishedAt": "2026-11-17T18:18:25Z",
-        "notes": "### Features\n\n* **plugin:** detached transitions and the vac_route style for visual approach charts (#30) (1dd9ce2)",
-        "notesPt": "### Novidades\n\n* **plugin:** As cartas de aproximação visual (VAC) passam a ser desenhadas como circuito de tráfego, com as rotas de entrada e saída pontilhadas e sem linha de ligação ao início do procedimento. (1dd9ce2)"
+        "sha256": "deddc26cc7c5c3d2d468a992e83e62a368865b2b55347f24c95bfadaebc8a346",
+        "size": 2137684,
+        "publishedAt": "2026-11-24T05:07:15Z",
+        "notes": "### Features\n\n* **plugin:** show the staff's VATSIM NOTAMs on the airport card (#32) (2198e52)",
+        "notesPt": "### Novidades\n\n* **plugin:** O botão NOTAM do card do aeroporto passa a mostrar os NOTAMs VATSIM publicados pela staff (pista fechada, área restrita, procedimento indisponível), em vermelho quando algum estiver valendo. (2198e52)"
       }
     },
     {
