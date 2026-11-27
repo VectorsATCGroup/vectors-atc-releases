@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T11:16:03Z",
+  "generatedAt": "2026-11-27T13:02:06Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -96,15 +96,15 @@
         ]
       },
       "release": {
-        "version": "1.7.0",
-        "tag": "plugin-v1.7.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.7.0.zip",
+        "version": "1.8.0",
+        "tag": "plugin-v1.8.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.8.0.zip",
         "notesUrl": null,
-        "sha256": "ad9f64f986f9518984d00fa3cef3da430a6a434eeff572c914c840de0c263677",
-        "size": 2477166,
-        "publishedAt": "2026-11-27T11:16:03Z",
-        "notes": "### Features\n\n* **plugin:** CPDLC with the TopSky behaviour and settings (#35) (1f8b112)\n* **plugin:** package folders, weather radar, NOTAM, route probe and ASR-scoped top bar (#34) (bff97f8)",
-        "notesPt": "### Novidades\n\n* **plugin:** CPDLC igual ao da TopSky: CPDLC Setting com login de 4 letras e Connect, aceite de logon pelo Start CPDLC (ou automático), menus CFL, AHDG, ASP, direto, transferência, VCI e texto livre com R/T ou CPDLC, avisos no rótulo (SBY, UNA, P LATE, ERR, NOT CDA, CONN FAIL), emergências, prazos e recusas automáticas com os textos da TopSky, janelas de mensagens atuais e histórico, resposta manual e itens de TAG para o EuroScope. Ajustes e textos livres em config\\VectorsCPDLC.txt (um TopSkyCPDLC.txt também é lido). (1f8b112)\n* **plugin:** Pacote do plugin organizado em pastas (config, data, styles, docs e logs), radar meteorológico, áreas e janela de NOTAM dinâmico, rota do plano de voo no radar com sonda e alerta de conflito, seletor de SID/STAR/IAP, silhuetas de aeronave e barra superior conforme o tipo de ASR. O Hub leva junto as configurações editadas para as novas pastas. Corrigido o círculo completo desenhado quando o curso de um DF aponta para trás (SBMT 12N). (bff97f8)"
+        "sha256": "2f2b605ea0538acedb7dbad421215225e95bd76eb23f631cdabec5707049550e",
+        "size": 2480522,
+        "publishedAt": "2026-11-27T13:02:06Z",
+        "notes": "### Features\n\n* **plugin:** CPDLC connection UX, one station per login and missing TopSky tag items (#36) (fd59747)",
+        "notesPt": "### Novidades\n\n* **plugin:** na janela CPDLC Setting, o Logon Code mostra se já existe um código cadastrado e o botão passa a ser \"Substituir código\"; confirmar o campo vazio não apaga mais o código salvo (fd59747)"
       }
     },
     {
