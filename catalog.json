@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-27T13:02:06Z",
+  "generatedAt": "2026-11-27T14:56:32Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -21,15 +21,15 @@
         "exe": "VectorsATCHub.exe"
       },
       "release": {
-        "version": "0.6.0",
-        "tag": "hub-v0.6.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.6.0/VectorsATCHub-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.6.0",
-        "sha256": "4a733eef8c69f0d8b548dc889d813c86418782ba40c3e0c91328c8cbb0556a0e",
-        "size": 49935493,
-        "publishedAt": "2026-11-27T11:16:03Z",
-        "notes": "### Features\n\n* **plugin:** package folders, weather radar, NOTAM, route probe and ASR-scoped top bar (#34) (bff97f8)",
-        "notesPt": "### Novidades\n\n* **plugin:** Pacote do plugin organizado em pastas (config, data, styles, docs e logs), radar meteorológico, áreas e janela de NOTAM dinâmico, rota do plano de voo no radar com sonda e alerta de conflito, seletor de SID/STAR/IAP, silhuetas de aeronave e barra superior conforme o tipo de ASR. O Hub leva junto as configurações editadas para as novas pastas. Corrigido o círculo completo desenhado quando o curso de um DF aponta para trás (SBMT 12N). (bff97f8)"
+        "version": "0.7.0",
+        "tag": "hub-v0.7.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.7.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.7.0",
+        "sha256": "5ec9efb948021649849ab4541480acb484df4bdc828d60275b640ed4c861c767",
+        "size": 49935553,
+        "publishedAt": "2026-11-27T14:56:32Z",
+        "notes": "### Features\n\n* **hub:** show procedure profiles on the plugin row (#37) (41acded)",
+        "notesPt": "### Novidades\n\n* **hub:** a escolha de perfis de procedimentos agora fica visível na linha do plugin no Hub, com um resumo das FIRs e terminais instalados (41acded)"
       }
     },
     {
