@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-11-26T15:33:02Z",
+  "generatedAt": "2026-11-27T11:16:03Z",
   "donationUrl": "https://vectorsatcgroup.com/pt/support",
   "apps": [
     {
@@ -21,15 +21,15 @@
         "exe": "VectorsATCHub.exe"
       },
       "release": {
-        "version": "0.5.0",
-        "tag": "hub-v0.5.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.5.0/VectorsATCHub-Setup.exe",
-        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.5.0",
-        "sha256": "af02e69d661d6a4c117c848113cb67b18862cceeaefb0c62991679d127a9af1f",
-        "size": 49889970,
-        "publishedAt": "2026-10-31T15:52:25Z",
-        "notes": "### Features\n\n* switch the plugin's modules from a menu and choose the procedures to install (#21) (0c5a926)",
-        "notesPt": "### Novidades\n\n* o plugin agora começa desligado e o menu VECTORS liga o mapa de procedimentos, o painel operacional e a barra de menus; o Hub deixa escolher os procedimentos por FIR ou terminal; as janelas do painel fecham ao tirar o mouse ou clicar fora; aeroportos sem pista em uso só aparecem em APP e CTR se houver tráfego chegando; o voo selecionado fica em azul; QNH em destaque só em hPa; janela do aeródromo mais completa; cores da janela GND iguais às do sector; várias correções no radar de solo (0c5a926)"
+        "version": "0.6.0",
+        "tag": "hub-v0.6.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/hub-v0.6.0/VectorsATCHub-Setup.exe",
+        "notesUrl": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/tag/hub-v0.6.0",
+        "sha256": "4a733eef8c69f0d8b548dc889d813c86418782ba40c3e0c91328c8cbb0556a0e",
+        "size": 49935493,
+        "publishedAt": "2026-11-27T11:16:03Z",
+        "notes": "### Features\n\n* **plugin:** package folders, weather radar, NOTAM, route probe and ASR-scoped top bar (#34) (bff97f8)",
+        "notesPt": "### Novidades\n\n* **plugin:** Pacote do plugin organizado em pastas (config, data, styles, docs e logs), radar meteorológico, áreas e janela de NOTAM dinâmico, rota do plano de voo no radar com sonda e alerta de conflito, seletor de SID/STAR/IAP, silhuetas de aeronave e barra superior conforme o tipo de ASR. O Hub leva junto as configurações editadas para as novas pastas. Corrigido o círculo completo desenhado quando o curso de um DF aponta para trás (SBMT 12N). (bff97f8)"
       }
     },
     {
@@ -89,20 +89,22 @@
           ]
         },
         "preserve": [
+          "config/VPMConfig.txt",
+          "styles/VPMStyles.txt",
           "VPMConfig.txt",
           "VPMStyles.txt"
         ]
       },
       "release": {
-        "version": "1.6.0",
-        "tag": "plugin-v1.6.0",
-        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.6.0.zip",
+        "version": "1.7.0",
+        "tag": "plugin-v1.7.0",
+        "url": "https://github.com/VectorsATCGroup/vectors-atc-releases/releases/download/apps/VectorsATC-plugin-v1.7.0.zip",
         "notesUrl": null,
-        "sha256": "deddc26cc7c5c3d2d468a992e83e62a368865b2b55347f24c95bfadaebc8a346",
-        "size": 2137684,
-        "publishedAt": "2026-11-24T05:07:15Z",
-        "notes": "### Features\n\n* **plugin:** show the staff's VATSIM NOTAMs on the airport card (#32) (2198e52)",
-        "notesPt": "### Novidades\n\n* **plugin:** O botão NOTAM do card do aeroporto passa a mostrar os NOTAMs VATSIM publicados pela staff (pista fechada, área restrita, procedimento indisponível), em vermelho quando algum estiver valendo. (2198e52)"
+        "sha256": "ad9f64f986f9518984d00fa3cef3da430a6a434eeff572c914c840de0c263677",
+        "size": 2477166,
+        "publishedAt": "2026-11-27T11:16:03Z",
+        "notes": "### Features\n\n* **plugin:** CPDLC with the TopSky behaviour and settings (#35) (1f8b112)\n* **plugin:** package folders, weather radar, NOTAM, route probe and ASR-scoped top bar (#34) (bff97f8)",
+        "notesPt": "### Novidades\n\n* **plugin:** CPDLC igual ao da TopSky: CPDLC Setting com login de 4 letras e Connect, aceite de logon pelo Start CPDLC (ou automático), menus CFL, AHDG, ASP, direto, transferência, VCI e texto livre com R/T ou CPDLC, avisos no rótulo (SBY, UNA, P LATE, ERR, NOT CDA, CONN FAIL), emergências, prazos e recusas automáticas com os textos da TopSky, janelas de mensagens atuais e histórico, resposta manual e itens de TAG para o EuroScope. Ajustes e textos livres em config\\VectorsCPDLC.txt (um TopSkyCPDLC.txt também é lido). (1f8b112)\n* **plugin:** Pacote do plugin organizado em pastas (config, data, styles, docs e logs), radar meteorológico, áreas e janela de NOTAM dinâmico, rota do plano de voo no radar com sonda e alerta de conflito, seletor de SID/STAR/IAP, silhuetas de aeronave e barra superior conforme o tipo de ASR. O Hub leva junto as configurações editadas para as novas pastas. Corrigido o círculo completo desenhado quando o curso de um DF aponta para trás (SBMT 12N). (bff97f8)"
       }
     },
     {
